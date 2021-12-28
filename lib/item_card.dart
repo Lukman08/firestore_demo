@@ -40,21 +40,21 @@ class ItemCard extends StatelessWidget {
           ),
           Row(
             children: [
-              SizedBox(
-                height: 40,
-                width: 60,
-                child: RaisedButton(
-                    shape: CircleBorder(),
-                    color: Colors.green[900],
-                    child: Center(
-                        child: Icon(
-                      Icons.arrow_upward,
-                      color: Colors.white,
-                    )),
-                    onPressed: () {
-                      if (onUpdate != null) onUpdate();
-                    }),
-              ),
+              // SizedBox(
+              //   height: 40,
+              //   width: 60,
+              //   child: RaisedButton(
+              //       shape: CircleBorder(),
+              //       color: Colors.green[900],
+              //       child: Center(
+              //           child: Icon(
+              //         Icons.arrow_upward,
+              //         color: Colors.white,
+              //       )),
+              //       onPressed: () {
+              //         if (onUpdate != null) onUpdate();
+              //       }),
+              // ),
               SizedBox(
                 height: 40,
                 width: 60,
